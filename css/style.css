@@ -1,1 +1,15 @@
-/* code here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #080616;
+  font-family: system-ui, sans-serif;
+  color: rgba(253, 253, 253, 1);
+}
+
+ol,
+ul {
+  list-style: none;
+}
