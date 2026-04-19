@@ -8,18 +8,334 @@
   </head>
   <body>
     <header>
-      <img src="./assets/images/logo-vector.png" alt="Logo Susu Kambing" />
       <nav>
-        <ul>
-          <li>About</li>
-          <li>Product</li>
-          <li>Efficacy</li>
-          <li>Location</li>
+        <a href="#hero" class="nav-logo"
+          >&lt;<span>dev</span>.portfolio /&gt;</a
+        >
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <button><a href="#contact">Contact Us</a></button>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-tag">Available for work</div>
+        <h1>
+          Ishaq Dev<br />
+          <span class="line2">Full-Stack</span>
+          <span class="accent">Developer<span class="blink">_</span></span>
+        </h1>
+        <p class="hero-desc">
+          Building fast, clean, and impactful digital products — from backend to
+          UI.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Lihat Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Tahun Exp</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Kopi/hari</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="about-grid reveal">
+        <div class="about-visual">
+          <div class="about-img-frame">
+            <div class="avatar-placeholder">
+              <img
+                class="about-image"
+                src="../challenge-1-Eldrich007-1/assets/images/porto.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="about-corner tl"></div>
+            <div class="about-corner br"></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="section-label">About me</div>
+          <h2 class="section-title">
+            Halo, saya<br />
+            <span style="color: var(--accent)">Ishaq</span>
+          </h2>
+          <p>
+            Seorang <strong>Full-Stack Developer</strong> yang passionate dalam
+            membangun produk digital dari nol. Saya percaya bahwa kode yang baik
+            bukan hanya yang berfungsi, tapi yang mudah dipahami dan dirawat.
+          </p>
+          <p>
+            Berawal dari rasa penasaran yang tak pernah mati terhadap teknologi,
+            saya terus belajar dan berkembang. Saat tidak ngoding, biasanya saya
+            sedang <strong>merancang sistem</strong>, membaca, atau ngopi sambil
+            scroll GitHub.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Clean Code</span>
+            <span class="tag">Problem Solver</span>
+            <span class="tag">Fast Learner</span>
+            <span class="tag">Open Source</span>
+            <span class="tag">Team Player</span>
+            <span class="tag">Coffee Addict ☕</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-label reveal">Expertise</div>
+      <h2 class="section-title reveal">Tech Stack &<br />Kemampuan</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <span class="skill-icon">🌐</span>
+          <h3>Frontend</h3>
+          <p>
+            HTML, CSS, JavaScript — membangun UI yang responsif dan aksesibel.
+          </p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">⚙️</span>
+          <h3>Backend</h3>
+          <p>
+            Node.js, Express, REST API — merancang sistem yang skalabel dan
+            aman.
+          </p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🗄️</span>
+          <h3>Database</h3>
+          <p>
+            MySQL, PostgreSQL, MongoDB — mengelola data dengan struktur yang
+            efisien.
+          </p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🐳</span>
+          <h3>DevOps</h3>
+          <p>
+            Git, Docker, CI/CD — deploy dan maintain aplikasi di environment
+            produksi.
+          </p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 65%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">📱</span>
+          <h3>Responsive Design</h3>
+          <p>
+            Desain yang bekerja di semua ukuran layar dengan pendekatan
+            mobile-first.
+          </p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🔐</span>
+          <h3>Security</h3>
+          <p>
+            Web security basics, autentikasi, dan perlindungan data pengguna.
+          </p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-label reveal">Work</div>
+      <h2 class="section-title reveal">Projects<br />Terpilih</h2>
+      <div class="projects-grid reveal">
+        <div class="project-card">
+          <div class="project-thumb">
+            <div class="project-thumb-bg">
+              <div class="project-thumb-num">01</div>
+            </div>
+            <div class="project-status status-live">● Live</div>
+          </div>
+          <div class="project-body">
+            <div class="project-type">Web Application</div>
+            <h3>Movie APP</h3>
+            <p>
+              SEO-optimized movie app built with Next.js, featuring server-side
+              rendering, fast performance, and dynamic content—delivering a
+              seamless, discoverable browsing experience for movies.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">Next JS</span>
+              <span class="stack-tag">Axios</span>
+              <span class="stack-tag">Tailwind</span>
+              <span class="stack-tag">Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                >Demo <span class="arrow">↗</span></a
+              >
+              <a href="#" class="project-link"
+                >GitHub <span class="arrow">↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div
+            class="project-thumb"
+            style="
+              background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+            "
+          >
+            <div class="project-thumb-bg">
+              <div class="project-thumb-num">02</div>
+            </div>
+            <div class="project-status status-live">● Live</div>
+          </div>
+          <div class="project-body">
+            <div class="project-type">Full Stack Development</div>
+            <h3>ToDo APP</h3>
+            <p>
+              Modern To-Do List app built with React and TanStack Query, powered
+              by an Express API on Railway—fast, efficient, and scalable for
+              real-time task management.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">React</span>
+              <span class="stack-tag">Tanstack Query</span>
+              <span class="stack-tag">Express JS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                >Demo <span class="arrow">↗</span></a
+              >
+              <a href="#" class="project-link"
+                >GitHub <span class="arrow">↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div
+            class="project-thumb"
+            style="
+              background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
+            "
+          >
+            <div class="project-thumb-bg">
+              <div class="project-thumb-num">03</div>
+            </div>
+            <div class="project-status status-wip">◐ WIP</div>
+          </div>
+          <div class="project-body">
+            <div class="project-type">Tool / Utility</div>
+            <h3>Eccomerce</h3>
+            <p>
+              Modern e-commerce app built with React and TanStack Query, powered
+              by an Express API on Railway—fast, scalable, and optimized for
+              real-time product management and seamless shopping experience.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">React</span>
+              <span class="stack-tag">Tailwind</span>
+              <span class="stack-tag">ShadCN</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                >GitHub <span class="arrow">↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact-inner reveal">
+        <div class="section-label" style="justify-content: center">Contact</div>
+        <h2 class="section-title">Mari Bekerja<br />Sama! 🚀</h2>
+        <p>
+          Punya project menarik atau ingin berdiskusi?<br />
+          Jangan ragu untuk menghubungi saya.
+        </p>
+        <a href="mailto:luthfiishaq005@gmail.com" class="contact-email"
+          >Ishaq DEV</a
+        >
+        <div class="social-links">
+          <a href="https://github.com/Eldrich007" class="social-link">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/luthfi-al-ishaqi-896718366/"
+            class="social-link"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.facebook.com/luthfial.ishaqi.5/?locale=id_ID"
+            class="social-link"
+            >Facebook</a
+          >
+          <a
+            href="https://www.instagram.com/luthfialishaqi/"
+            class="social-link"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 <span>Ishaq Dev</span>. Dibangun dengan HTML murni.</p>
+      <p>Designed & Developed by <span>me</span></p>
+    </footer>
+
+    <script>
+      /* Scroll reveal */
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e, i) => {
+            if (e.isIntersecting) {
+              e.target.style.transitionDelay = i * 0.05 + 's';
+              e.target.classList.add('visible');
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      document
+        .querySelectorAll('.reveal')
+        .forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>
